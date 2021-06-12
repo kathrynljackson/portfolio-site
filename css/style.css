@@ -11,9 +11,13 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #FCFCF5;
+    --clr-dark: #310C0C;
+    --clr-accent: #EDC337;
+
+    --clr-light1: #fff;
+    --clr-dark2: #303030;
+    --clr-accent3: #16e0bd;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -370,7 +374,6 @@ h3 {
 
 /* MY WORK */
 .my-work {
-    max-width: 1000px;
     margin: 0 auto;
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -414,7 +417,7 @@ h3 {
 
 /* FOOTER */
 .footer {
-    background: #111;
+    background: #130404;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
