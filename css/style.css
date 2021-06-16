@@ -368,6 +368,7 @@ h3 {
     .service + .service {
         margin-left: 2.5em;
     }
+
 }
 
 /* ABOUT ME */
@@ -442,6 +443,10 @@ h3 {
   max-height: 200px;
 }
 
+.portfolio__item span{
+    margin: 1em;
+  }
+
 
 
 .portfolio__img {
@@ -503,6 +508,33 @@ h3 {
 }
 
 /* INDIVIDUAL PORTFOLIO ITEM*/
+
+@media (max-width: 800px) {
+    .tooltiptext {
+        visibility: visible!important;
+    }
+}
+
+
+.portfolio__item:hover .tooltiptext {
+    visibility: visible;
+    transition: transform 200ms ease-in-out;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+    opacity: 90%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 4px;
+    font-size: .85em;
+    padding: .5em;
+}
+
 .portfolio-description {
     background-color: var(--clr-dark);
     color: var(--clr-light);
