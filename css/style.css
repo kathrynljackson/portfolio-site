@@ -179,7 +179,7 @@ h3 {
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1)
 }
 
-.nav__list {
+.nav-list {
     
     list-style: none;
     display: flex;
@@ -192,7 +192,7 @@ h3 {
     align-self:flex-end;
 }
 
-.nav__link {
+.nav-link {
     color: inherit;
     /* font-weight: var(--fw-bold); */
     font-size: 2em;
@@ -200,14 +200,14 @@ h3 {
     font-family: var(--ff-secondary)!important;
 }
 
-.nav__item + .nav__item {
+.nav-item + .nav-item {
     border-top: rgba(251, 251, 243, 0.25) solid .5px;
     padding-top: 2em;
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.nav__link:hover {
+.nav-link:hover {
     color: var(--clr-accent)
 }
 
