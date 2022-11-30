@@ -128,25 +128,25 @@ h3 {
     font-size: var(--fs-h3);
 }
 
-.section__title {
+.section-title {
   margin-bottom: .25em;  
 }
 
-.section__title--intro {
+.section-title--intro {
     font-weight: var(--fw-reg);
 }
 
-.section__title--intro strong {
+.section-title--intro strong {
     display: block;
 }
 
-.section__subtitle {
+.section-subtitle {
     margin: 0;
     font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro,
-.section__subtitle--about {
+.section-subtitle--intro,
+.section-subtitle--about {
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
@@ -310,7 +310,7 @@ h3 {
         z-index: -1;
     }
 
-    .section__subtitle--intro {
+    .section-subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
@@ -333,12 +333,12 @@ h3 {
     text-align: center;
 }
 
-.section__title--services {
+.section-title--services {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section-title--services::after {
     content: "";
     display: block;
     width: 2.5em;
@@ -392,12 +392,12 @@ h3 {
         box-shadow: var(--bs);
     }
 
-    .section__subtitle--about,
-    .section__title--about {
+    .section-subtitle--about,
+    .section-title--about {
         grid-column: 1;
     }
 
-    .section__subtitle--about {
+    .section-subtitle--about {
         grid-column: 1/ -1;
         grid-row: 2;
         position: relative;
@@ -423,7 +423,7 @@ h3 {
     text-align: center;
 }
 
-.section__subtitle--work {
+.section-subtitle--work {
     font-family: var(--ff-secondary);
     color: var(--clr-accent);
     font-size: 1em;
